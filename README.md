@@ -542,7 +542,19 @@ Performance improvements (database optimisation)
 
 # Project Planning, Management & Documentation
 
+# Backlog Reviews
+Conducted weekly
+Tasks reprioritised based on progress and issues
+Ensured focus on core gameplay features first**
 
+# Burndown chart
+| Week   | Tasks Remaining |
+| ------ | --------------- |
+| Week 1 | 20              |
+| Week 2 | 12              |
+| Week 3 | 5               |
+| Week 4 | 0               |
+****
 
 
 
