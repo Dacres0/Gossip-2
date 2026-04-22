@@ -506,6 +506,51 @@ These improvements would enhance user engagement, platform safety, and the overa
 # Conclusion 
 Gossip aims to create a community-driven location-based social game where players interact with anonymous content tied to real-world locations. Through a combination of map exploration, social voting, and community storytelling, the platform encourages players to engage with their surroundings in a unique and dynamic way. The system successfully meets all defined user and system requirements, demonstrating a scalable, user-driven platform supported by real-time interaction and community validation.
 
+#Gossip 2
+# Scrum Product Backlog 
+
+| Priority | Feature                 | Definition                                             | Acceptance Test                                                                    | Evaluation / Justification                                          |
+| -------- | ----------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| 1        | User Location Detection | The system retrieves the user’s real-time GPS location | Location is detected within ≤5 seconds and updated dynamically when the user moves | Critical to all gameplay; without location, the app cannot function |
+| 2        | Map Display             | Interactive map showing nearby gossip bubbles          | Map loads in ≤2 seconds and displays bubbles within a 500m radius                  | Ensures usability and supports exploration gameplay                 |
+| 3        | Create Gossip Bubble    | Users can create a bubble tied to their location       | Bubble appears instantly at correct coordinates with correct text                  | Core mechanic; must be responsive for engagement                    |
+| 4        | Voting System           | Users can upvote/downvote bubbles                      | Score updates in real time across all users                                        | Drives credibility and community moderation                         |
+| 5        | Credibility Algorithm   | Calculates bubble ranking using votes                  | High-score bubbles appear more prominently than low-score ones                     | Ensures quality control and reduces misinformation                  |
+| 6        | Anonymous Identity      | System assigns temporary user IDs                      | No personal data is stored; IDs reset periodically                                 | Supports privacy and encourages participation                       |
+| 7        | Bubble Feed             | Displays list of nearby bubbles                        | Feed refreshes when location changes or new bubbles appear                         | Improves accessibility beyond map interaction                       |
+| 8        | Business Promotion      | Businesses create promotional bubbles                  | Promotional bubbles are tagged and voteable                                        | Enables monetisation while remaining community-driven               |
+| 9        | Moderation Tools        | Users can report inappropriate content                 | Reports are logged and flagged automatically                                       | Prevents abuse and improves safety                                  |
+| 10       | Bubble Expiration       | Removes old bubbles automatically                      | Bubbles delete after 24 hours                                                      | Keeps content relevant and reduces clutter                          |
+
+# Design, Development & Implementation Updates
+
+# Design Changes
+Improved UI layout for bubble creation (fixed alignment issues)
+Introduced colour-coded credibility system (green, grey, red)
+Added bubble expiration logic for content freshness
+
+# Development Updates
+Optimised GPS refresh rate to reduce delay
+Improved database queries to handle high bubble density
+Implemented asynchronous updates for real-time voting
+Implementation Documentation (GitHub ReadMe.md)
+
+All updates are recorded in the repository, including:
+Feature additions (e.g., voting system, moderation tools)
+Bug fixes (GPS delay, UI inconsistencies)
+Performance improvements (database optimisation)
+
+# Project Planning, Management & Documentation
+
+
+
+
+
+
+
+
+
+
 # references 
 
 https://www.youtube.com/watch?v=MOqozQAS2VE
