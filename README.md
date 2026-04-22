@@ -506,7 +506,7 @@ These improvements would enhance user engagement, platform safety, and the overa
 # Conclusion 
 Gossip aims to create a community-driven location-based social game where players interact with anonymous content tied to real-world locations. Through a combination of map exploration, social voting, and community storytelling, the platform encourages players to engage with their surroundings in a unique and dynamic way. The system successfully meets all defined user and system requirements, demonstrating a scalable, user-driven platform supported by real-time interaction and community validation.
 
-#Gossip 2
+# Gossip 2
 # Scrum Product Backlog 
 
 | Priority | Feature                 | Definition                                             | Acceptance Test                                                                    | Evaluation / Justification                                          |
