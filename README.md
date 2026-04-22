@@ -556,8 +556,16 @@ Ensured focus on core gameplay features first**
 | Week 4 | 0               |
 ****
 
+# Development Review Meetings
 
+| Date   | Completed Work            | Next Tasks                | Issues / Barriers |
+| ------ | ------------------------- | ------------------------- | ----------------- |
+| Mar 10 | Map UI created            | Implement bubble creation | GPS accuracy      |
+| Mar 11 | Voting system implemented | Backend API               | None              |
+| Mar 12 | Database setup            | Testing                   | Slow queries      |
+| Mar 13 | Bubble creation completed | UI improvements           | Minor bugs        |
 
+# Software Tools & Coding Techniques
 
 
 
