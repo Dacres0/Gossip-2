@@ -567,6 +567,14 @@ Ensured focus on core gameplay features first**
 
 # Software Tools & Coding Techniques
 
+| Tool     | Purpose                       |
+| -------- | ----------------------------- |
+| Git      | Version control               |
+| GitHub   | Repository & collaboration    |
+| VS Code  | Development environment       |
+| Flutter  | Cross-platform UI development |
+| Firebase | Real-time backend database    |
+
 
 
 
