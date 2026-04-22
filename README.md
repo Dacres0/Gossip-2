@@ -575,9 +575,38 @@ Ensured focus on core gameplay features first**
 | Flutter  | Cross-platform UI development |
 | Firebase | Real-time backend database    |
 
+# Coding Techniques
+Modular Programming – Code split into reusable components
+MVC Architecture – Separation of logic, UI, and data
+Asynchronous Programming – Enables real-time updates
+API Integration – Handles communication between frontend and backend
 
+# Evaluation
+Flutter reduces development time across platforms
+Firebase supports real-time updates required for voting and map data
+Git ensures safe version control and rollback capability
 
+# Testing & Validation
+| Test Case         | Expected Result    | Actual Result        | Status   |
+| ----------------- | ------------------ | -------------------- | -------- |
+| Create bubble     | Appears instantly  | Works correctly      | Pass     |
+| Upvote bubble     | Score +1           | Works correctly      | Pass     |
+| Downvote bubble   | Score -1           | Works correctly      | Pass     |
+| Move location     | New bubbles appear | Slight delay (fixed) | Improved |
+| Bubble expiration | Deletes after 24h  | Works correctly      | Pass     |
 
+# Conclusion
+
+The Gossip system successfully meets its design objectives by delivering a location-based, anonymous social experience supported by real-time interaction and community validation.
+
+# Key strengths
+
+Strong core gameplay loop
+Effective use of community moderation
+Scalable architecture using Firebase
+Structured Agile development process
+
+The project demonstrates a complete system that aligns with all defined requirements, supported by testing, documentation, and iterative improvement.
 
 # references 
 
