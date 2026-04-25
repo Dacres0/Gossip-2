@@ -540,6 +540,20 @@ Feature additions (e.g., voting system, moderation tools)
 Bug fixes (GPS delay, UI inconsistencies)
 Performance improvements (database optimisation)
 
+## Design Decisions & Justification
+
+### Use of Flutter
+Flutter was chosen to enable cross-platform development, allowing the application to run on both Android and iOS with a single codebase. This reduced development time and ensured consistency across platforms.
+
+### Use of Firebase
+Firebase was selected due to its real-time database capabilities, which are essential for features such as live voting updates and dynamic bubble display. It also simplifies backend management.
+
+### Anonymous User System
+An anonymous identity system was implemented to encourage user participation while protecting privacy. This aligns with the social nature of the application.
+
+### Bubble Expiration Feature
+The decision to automatically delete bubbles after 24 hours ensures that content remains relevant and prevents clutter within the system.
+
 # Project Planning, Management & Documentation
 
 # Backlog Reviews
