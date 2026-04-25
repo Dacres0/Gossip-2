@@ -674,6 +674,13 @@ The system follows an MVC-inspired architecture:
 - Controller: Handles logic such as voting, bubble creation, and data updates
 
 This separation improves maintainability, scalability, and code organisation.
+
+## Future Improvements
+
+- Implement user accounts with optional authentication
+- Introduce AI-based moderation to detect harmful content
+- Improve map clustering for high-density areas
+- Add push notifications for nearby trending bubbles
 # references 
 
 https://www.youtube.com/watch?v=MOqozQAS2VE
