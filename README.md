@@ -665,6 +665,15 @@ This demonstrates effective sprint planning, although minor delays were caused b
 
 These challenges were critical in improving both performance and user experience.
 
+## System Architecture Overview
+
+The system follows an MVC-inspired architecture:
+
+- Model: Firebase database storing bubbles, votes, and user data
+- View: Flutter UI displaying map, bubbles, and interactions
+- Controller: Handles logic such as voting, bubble creation, and data updates
+
+This separation improves maintainability, scalability, and code organisation.
 # references 
 
 https://www.youtube.com/watch?v=MOqozQAS2VE
