@@ -654,7 +654,16 @@ The burndown chart shows a consistent decrease in remaining tasks across the 4-w
 
 This demonstrates effective sprint planning, although minor delays were caused by technical challenges such as GPS accuracy and database performance.
 
+## Challenges & Solutions
 
+| Challenge | Solution |
+|----------|---------|
+| GPS accuracy issues | Optimised refresh rate and improved location handling |
+| Slow database queries | Implemented query optimisation and indexing |
+| UI alignment bugs | Adjusted layout using Flutter constraints |
+| Real-time updates delay | Introduced asynchronous programming techniques |
+
+These challenges were critical in improving both performance and user experience.
 
 # references 
 
