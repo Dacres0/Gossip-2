@@ -608,6 +608,19 @@ Structured Agile development process
 
 The project demonstrates a complete system that aligns with all defined requirements, supported by testing, documentation, and iterative improvement.
 
+# User stories 
+
+## User Stories
+
+| ID | User Story |
+|----|-----------|
+| US1 | As a user, I want my location to be detected automatically so that I can see nearby gossip bubbles |
+| US2 | As a user, I want to create a gossip bubble so that I can share information with others nearby |
+| US3 | As a user, I want to upvote or downvote bubbles so that I can influence their credibility |
+| US4 | As a user, I want to view bubbles on a map so that I can explore content geographically |
+| US5 | As a user, I want to remain anonymous so that I can share content without revealing my identity |
+| US6 | As a user, I want old bubbles to expire so that the content remains relevant |
+| US7 | As a user, I want to report inappropriate content so that the platform remains safe |
 # references 
 
 https://www.youtube.com/watch?v=MOqozQAS2VE
