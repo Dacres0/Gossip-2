@@ -595,8 +595,6 @@ Git ensures safe version control and rollback capability
 | Move location     | New bubbles appear | Slight delay (fixed) | Improved |
 | Bubble expiration | Deletes after 24h  | Works correctly      | Pass     |
 
-# Extended Testing
-
 ## Extended Testing & Edge Cases
 
 | Test Case | Description | Expected Result | Status |
@@ -619,8 +617,6 @@ Structured Agile development process
 
 The project demonstrates a complete system that aligns with all defined requirements, supported by testing, documentation, and iterative improvement.
 
-# User stories 
-
 ## User Stories
 
 | ID | User Story |
@@ -632,6 +628,20 @@ The project demonstrates a complete system that aligns with all defined requirem
 | US5 | As a user, I want to remain anonymous so that I can share content without revealing my identity |
 | US6 | As a user, I want old bubbles to expire so that the content remains relevant |
 | US7 | As a user, I want to report inappropriate content so that the platform remains safe |
+
+
+## Burndown Chart Analysis
+
+The burndown chart shows a consistent decrease in remaining tasks across the 4-week sprint.
+
+- Week 1 to Week 2: Rapid progress due to completion of core features such as map UI and bubble creation.
+- Week 2 to Week 3: Slower progress due to backend development and database optimisation challenges.
+- Week 3 to Week 4: Final tasks completed including testing and bug fixing.
+
+This demonstrates effective sprint planning, although minor delays were caused by technical challenges such as GPS accuracy and database performance.
+
+
+
 # references 
 
 https://www.youtube.com/watch?v=MOqozQAS2VE
