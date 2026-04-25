@@ -595,9 +595,20 @@ Git ensures safe version control and rollback capability
 | Move location     | New bubbles appear | Slight delay (fixed) | Improved |
 | Bubble expiration | Deletes after 24h  | Works correctly      | Pass     |
 
-# Conclusion
+# Extended Testing
 
-The Gossip system successfully meets its design objectives by delivering a location-based, anonymous social experience supported by real-time interaction and community validation.
+## Extended Testing & Edge Cases
+
+| Test Case | Description | Expected Result | Status |
+|----------|------------|----------------|--------|
+| Invalid bubble text | User submits empty bubble | Error message shown | Pass |
+| No GPS signal | Location unavailable | App shows fallback or error | Pass |
+| Rapid voting | Multiple votes quickly | System handles without crash | Pass |
+| High bubble density | Many bubbles nearby | Map remains responsive | Pass |
+| Expired bubble | After 24 hours | Bubble is removed | Pass |
+| Report feature | User reports content | Report is logged | Pass |
+| Network failure | Internet disconnects | Graceful error handling | Pass |
+| Duplicate bubbles | Same content spam | System still functions correctly | Pass |
 
 # Key strengths
 
